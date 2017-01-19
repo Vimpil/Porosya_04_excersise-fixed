@@ -6,7 +6,7 @@ $(document).ready(function() {
 				gallery_width: 2560,
 				gallery_height: 1589,
 				gallery_min_width: 150,
-				gallery_min_height: 837,
+				gallery_min_height: 150,
 				gallery_preserve_ratio: true,
 				slider_control_zoom: false,
 			})
