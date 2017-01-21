@@ -41,7 +41,7 @@
 	font-stretch: normal;
 }
 html, body {
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 /* Header */
@@ -50,23 +50,34 @@ html, body {
 	background: #191919;
 	color: #191919;
 	transform: rotate(356.7deg) scale(1) skew(-3.2deg) translate(0px);
-	-webkit-transform: rotate(356.7deg) scale(1) skew(-3.2deg) translate(0px);
+	-webkit-transform: rotate(356.7deg) scale(1) skew(-3.3deg) translate(0px);
 	-moz-transform: rotate(356.7deg) scale(1) skew(-3.2deg) translate(0px);
 	-o-transform: rotate(356.7deg) scale(1) skew(-3.2deg) translate(0px);
 	-ms-transform: rotate(356.7deg) scale(1) skew(-3.2deg) translate(0px);
-	height: 447px;
+	height: 412px;
 	margin-top: -98px;
-	display: block;
-	overflow: hidden;
 	z-index: 5;
 	position: relative;
-	width: 1272px;
-	padding-top: 97px;
-	padding-bottom: 85px;
+	width: 100.2%;
 	margin-bottom: -43px;
-	margin-left: -1.7px;
 }
-.right_to_left .rot_fix, .appointment .rot_fix {
+.header_cover{
+	    width: 100.14%;
+	    height: 449px;
+	    padding-top: 37px;
+	    position: relative;
+	    overflow: hidden;
+	    margin-bottom: -141px;
+	    z-index: 5;
+}
+.r_t_l_inside{
+	color: #fff;
+	position: absolute;
+	z-index: 5;
+	top: -1px;
+	left: 48px;
+}
+.appointment .rot_fix {
 	color: #fff;
 	transform: rotate(-356.5deg) scale(1) skew(4deg) translate(0px);
 	-webkit-transform: rotate(-356.5deg) scale(1) skew(4deg) translate(0px);
@@ -82,7 +93,7 @@ a:focus{
 .right_to_left.appointment {
 	padding-bottom: 432px;
 	margin-bottom: -128px;
-	padding-top: 167px;
+	padding-top: 165px;
 }
 #gallery_slider > div.ug-slider-wrapper > div.ug-slider-inner > div.ug-slide-wrapper.ug-slide2 > div.ug-item-wrapper > img {
 	height: 751px !important;
@@ -133,8 +144,6 @@ a:focus{
 	display: block;
 	background-color: #191919;
 	height: 126px;
-	padding-left: 20px;
-	padding-right: 20px;
 	margin-right: -20px;
 	margin-bottom: -66px;
 	padding-top: 50px;
@@ -238,6 +247,8 @@ div#gallery_slider {
 	z-index: 4;
 	margin-bottom: 85px;
 	height: 826px !important;
+	width: 100.04%!important;
+	margin-left: 1px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
 	background-color: transparent;
@@ -273,7 +284,7 @@ a#phone_number:link {
 	padding-bottom: 74px;
 }
 .info_block.marg_80.grid {
-	padding-bottom: 31px;
+	padding-bottom: 15px;
 	margin-top: 2px;
 }
 .info_block .padd_up {
@@ -314,8 +325,14 @@ a#phone_number:link {
 	padding-bottom: 0;
 	color: white;
 	font-family: "Lato-thin";
-	margin-bottom: 1px;
+	margin-bottom: -1px;
 	margin-top: -10px;
+}
+.info_block a {
+    color: white;
+}
+.info_block a:hover {
+    color: #cbcbcb;
 }
 .title {
 	font-size: 48px;
@@ -349,14 +366,14 @@ a#phone_number:link {
 	margin-right: 20px;
 }
 .item .tatoo_sal_build {
-	-webkit-transform: perspective(1px) scale(1);
-	        transform: perspective(1px) scale(1);
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+	    -webkit-transform: perspective(1px) scale(1) translateX(0) translateY(0) translateZ(0);
+    transform: scale(1) translateX(0) translateY(0) translateZ(0);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .item:hover .tatoo_sal_build {
-	-webkit-transform: perspective(1px) scale(1.1);
-	        transform: perspective(1px) scale(1.1);
+	-webkit-transform: perspective(1px) scale(1.1) translate3d(0,0,0);
+	transform: perspective(1px) scale(1.1)  translate3d(0,0,0);
 }
 .txt_contacts {
 	margin-top: 4.1px;
@@ -397,7 +414,7 @@ a#phone_number:link {
 	text-align: center;
 }
 #grid_info_block_2 .blog {
-	margin-left: 9.6%;
+	margin-left: 110px;
 }
 .sn_icons_group {
 	position: absolute;
@@ -485,17 +502,18 @@ a#phone_number:link {
 }
 .info_block .txt {
 	text-align: left;
-	margin-bottom: 19.5px;
+	margin-bottom: 37px;
 	line-height: 22px;
+	-webkit-font-smoothing: none;
 }
 #carousel_info_block {
 	margin-top: -77px;
 	margin-bottom: 53px;
 }
 .info_block.marg_76 {
-	margin-top: 101px;
+	margin-top: 105px;
 	width: 90%;
-	padding-bottom: 35px;
+	padding-bottom: 29px;
 }
 .right_to_left .appointment {
 	margin-bottom: 127px;
@@ -505,9 +523,9 @@ a#phone_number:link {
 
 /* Appoinmentment */
 .book_appointment {
-	top: 69.4px;
+	top: 71.4px;
 	position: absolute;
-	right: 5%;
+	right: 40px;
 	background-color: #888888;
 	z-index: 5;
 	border: 1px solid white;
@@ -579,16 +597,10 @@ a.book_appointment {
 }
 .left_to_right_full_v.posts {
 	padding-top: 111px;
-	padding-bottom: 537px;
-	margin-bottom: 1px;
+	padding-bottom: 533px;
+	margin-bottom: -2.5px;
 }
-.posts .rot_fix {
-	transform: rotate(356.4deg) scale(1) skew(-4deg) translate(0px);
-	-webkit-transform: rotate(356.4deg) scale(1) skew(-4deg) translate(0px);
-	-moz-transform: rotate(356.4deg) scale(1) skew(-4deg) translate(0px);
-	-o-transform: rotate(356.4deg) scale(1) skew(-4deg) translate(0px);
-	-ms-transform: rotate(356.4deg) scale(1) skew(-4deg) translate(0px);
-}
+.posts_inside {position: absolute;top: 4322px;z-index: 7;left: 9px;}
 div#grid_info_block {
 	margin-bottom: 156px;
 }
@@ -688,8 +700,8 @@ a, a:hover, .pic .pic-image, .pic-caption, .pic:hover .pic-caption, .pic:hover i
 	display: inline-block;
 }
 .background_block2 {
-	opacity: 0.5; /* ÃƒÂÃ…Â¸ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â»Ãƒâ€˜Ã†â€™ÃƒÂÃ‚Â¿Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â·Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â°Ãƒâ€˜Ã¢â‚¬Â¡ÃƒÂÃ‚Â½Ãƒâ€˜Ã¢â‚¬Â¹ÃƒÂÃ‚Â¹ Ãƒâ€˜Ã¢â‚¬Å¾ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â½ */
-	filter: alpha(Opacity=50); /* ÃƒÂÃ…Â¸Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â¾ÃƒÂÃ‚Â·Ãƒâ€˜Ã¢â€šÂ¬ÃƒÂÃ‚Â°Ãƒâ€˜Ã¢â‚¬Â¡ÃƒÂÃ‚Â½ÃƒÂÃ‚Â¾Ãƒâ€˜Ã‚ÂÃƒâ€˜Ã¢â‚¬Å¡Ãƒâ€˜Ã…â€™ ÃƒÂÃ‚Â² IE */
+	opacity: 0.5; /* ÃƒÆ’Ã‚ÂÃƒâ€¦Ã‚Â¸ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬ËœÃƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â·ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â½ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¹ ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â½ */
+	filter: alpha(Opacity=50); /* ÃƒÆ’Ã‚ÂÃƒâ€¦Ã‚Â¸ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â·ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â°ÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â½ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â¾ÃƒÆ’Ã¢â‚¬ËœÃƒâ€šÃ‚ÂÃƒÆ’Ã¢â‚¬ËœÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬ËœÃƒâ€¦Ã¢â‚¬â„¢ ÃƒÆ’Ã‚ÂÃƒâ€šÃ‚Â² IE */
 	height: 100%;
 	width: 100%;
 	background: black;
@@ -734,7 +746,7 @@ a, a:hover, .pic .pic-image, .pic-caption, .pic:hover .pic-caption, .pic:hover i
 }
 #grid_info_block_2 {
 	text-align: center;
-	margin-left: -90px;
+	margin-left: -88px;
 }
 
 /* END LEFT TO RIGHT 2 BLOCK*/
@@ -871,18 +883,18 @@ a.fb_icon.footer {
 	background: #191919;
 	color: #191919;
 	transform: rotate(363.4deg) scale(1) skew(3.4deg) translate(0px);
-	-webkit-transform: rotate(363.4deg) scale(1) skew(3.4deg) translate(0px);
+	-webkit-transform: rotate(363.7deg) scale(1) skew(3.7deg) translate(0px);
 	-moz-transform: rotate(363.4deg) scale(1) skew(3.4deg) translate(0px);
 	-o-transform: rotate(363.4deg) scale(1) skew(3.4deg) translate(0px);
 	-ms-transform: rotate(363.4deg) scale(1) skew(3.4deg) translate(0px);
 	height: 400px;
-	width: 1273.17px;
+	width: 100.3%;
 	margin-top: 122px;
 	padding-top: 128px;
-	padding-bottom: 430.4px;
-	margin-left: -2px;
+	padding-bottom: 432.4px;
 	position: relative;
 	z-index: 3;
+	margin-left: -1px;
 }
 .left_to_right_full_v.rot_fix {
 	transform: rotate(-360.5deg) scale(1) skew(-1deg) translate(0px);
@@ -892,9 +904,13 @@ a.fb_icon.footer {
 	-ms-transform: rotate(-360.5deg) scale(1) skew(-1deg) translate(0px);
 }
 .main_frame {
-	width: 1270px;
+	width: 1259px;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
+}
+.correction {
+    margin-left: -3px;
 }
 .one {
 	transform: rotate(358deg) scale(1) skew(-2deg) translate(0px);
@@ -925,6 +941,7 @@ a.fb_icon.footer {
 
 }
 .slider_bot {
+	width: 100%;
 	position: relative;
 	margin-bottom: -178px;
 }
@@ -932,19 +949,18 @@ a.fb_icon.footer {
 	content: "";
 	position: absolute;
 	top: -203px;
-	left: 0;
+	left: 2px;
 	height: 111px;
-	width: 100.3%;
+	width: 100.13%;
 	background: white;
 	-webkit-transform: rotate(356.2deg) scale(1) skew(-2.9deg) translate(0px);
 	-ms-transform: rotate(356.2deg) scale(1) skew(-2.9deg) translate(0px);
-	    transform: rotate(356.2deg) scale(1) skew(-2.9deg) translate(0px);
+	transform: rotate(356.2deg) scale(1) skew(-3.8deg) translate(0px);
 	z-index: 5;
-	margin-left: -1.0px;
 	margin-top: 1px;
 }
 .slider_bot2, .slider_bot3 {
-	width: 1271px;
+	width: 100.12%;
 	height: 200px;
 	float: left;
 	position: relative;
@@ -954,14 +970,13 @@ a.fb_icon.footer {
 	margin-top: -30px;
 }
 .slider_bot4 {
-	width: 1271px;
+	width: 100.12%;
 	height: 252px;
 	padding-top: 37px;
 	position: relative;
 	overflow: hidden;
 	margin-bottom: -101px;
 	z-index: 5;
-	margin: 0 auto;
 }
 .slider_bot2 .triangle {
 	top: 0;
@@ -973,27 +988,20 @@ a.fb_icon.footer {
 	-ms-transform: rotate(363.3deg) scale(1) skew(-83deg) translate(0px);
 	transform: rotate(363.3deg) scale(1) skew(-83deg) translate(0px);
 	z-index: 6;
-	margin-left: -3px;
 	position: absolute;
 }
 .slider_bot3 .triangle {
 	top: 0;
 	height: 117px;
-	width: 1271px;
+	width: 100%;
 	background: #191919;
 	-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 	-ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-	    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 	z-index: 8;
 	position: absolute;
 }
-.footer-top2 {
-	transform: rotate(356.4deg) scale(1) skew(-2deg) translate(0px);
-	-webkit-transform: rotate(356.4deg) scale(1) skew(-2deg) translate(0px);
-	-moz-transform: rotate(356.4deg) scale(1) skew(-2deg) translate(0px);
-	-o-transform: rotate(356.4deg) scale(1) skew(-2deg) translate(0px);
-	-ms-transform: rotate(356.4deg) scale(1) skew(-2deg) translate(0px);
-}
+.footer-top2 {position: absolute;top: 1201px;z-index: 7;left: 55px;}
 .ug-textpanel-title {
 	text-align: center !important;
 }
