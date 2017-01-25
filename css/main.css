@@ -310,9 +310,9 @@ a#phone_number:link {
 }
 .center.wide {
     position: absolute;
-    top: 2437px;
+    top: 2475px;
     z-index: 7;
-    left: -1px;
+    left: 6px;
 }
 .center.wide.footer {
     top: 0px;
@@ -343,7 +343,7 @@ a#phone_number:link {
 	padding-bottom: 0;
 	color: white;
 	font-family: "Lato-thin";
-	margin-bottom: 30px;
+	margin-bottom: 23px;
 	margin-top: -10px;
 	width: 622px;
 }
@@ -451,7 +451,7 @@ a#phone_number:link {
 	color: #888;
 	font-family: Lato;
 	font-size: 15px;
-	margin-left: -7px;
+	margin-left: 6px;
 }
 .carouse_info_block img {
 	width: 100px;
