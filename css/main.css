@@ -40,7 +40,10 @@
 	font-style: normal;
 	font-stretch: normal;
 }
-html, body {/* overflow-x: hidden; */}
+html, body {
+	margin-left:0px;
+
+}
 
 /* Header */
 .right_to_left {
@@ -65,9 +68,8 @@ html, body {/* overflow-x: hidden; */}
 	padding-top: 37px;
 	position: relative;
 	overflow: hidden;
-	margin-bottom: -145px;
+	margin-bottom: -194px;
 	z-index: 5;
-	margin-left: 6px;
 }
 .r_t_l_inside {
 	color: #fff;
@@ -76,21 +78,19 @@ html, body {/* overflow-x: hidden; */}
 	top: -2px;
 	width: 100%;
 }
-
 .appointment .title.white {
-    width: 620px;
+	width: 620px;
 }
-
 .info_block.marg_80 .txt {
-    width: 1160px;
-    float: none;
+	width: 1160px;
+	float: none;
 }
 a:focus {
 	text-decoration: none;
 	color: white;
 }
 .right_to_left.appointment {
-	padding-bottom: 427px;
+	padding-bottom: 15px;
 	margin-bottom: -128px;
 	padding-top: 171px;
 }
@@ -145,7 +145,7 @@ a:focus {
 	height: 126px;
 	margin-right: -20px;
 	margin-bottom: -66px;
-	padding-top: 50px;
+	padding-top: 44px;
 	-webkit-transform: rotate(-3.3deg);
 	-ms-transform: rotate(-3.3deg);
 	transform: rotate(-3.3deg);
@@ -179,7 +179,7 @@ a:focus {
 	font-weight: 400;
 	line-height: 80px;
 	position: absolute;
-	left: 50%;
+	left: 626px;
 	margin-left: -123px;
 	text-align: center;
 	display: block;
@@ -209,9 +209,10 @@ a.G_icon {
 }
 .contact {
 	padding-bottom: 180px;
-	margin-left: 60px;
+	margin-left: 55px;
 }
 ul.nav.navbar-nav {
+	list-style-type: none;
 	font-family: Lato;
 	font-size: 19px;
 	font-weight: 400;
@@ -219,8 +220,8 @@ ul.nav.navbar-nav {
 	text-transform: uppercase;
 	display: -webkit-box;
 	float: none;
-	margin-left: 153px;
-	margin-top: -2px;
+	margin-left: 95px;
+	margin-top: 0px;
 }
 a.nav-link {
 	color: white;
@@ -235,7 +236,8 @@ a.nav-link {
 	color: #B6B5B5;
 }
 a.nav-link {
-	padding: 16px 29px !important;
+	padding: 16px 28.8px !important;
+	text-decoration: none;
 }
 
 /* END Header */
@@ -247,10 +249,9 @@ div#gallery_slider {
 	right: 0;
 	margin: auto;
 	z-index: 4;
-	margin-bottom: 85px;
+	margin-bottom: 98px;
 	height: 826px !important;
 	width: 100.04% !important;
-	margin-left: 7px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
 	background-color: transparent;
@@ -262,7 +263,7 @@ a.fb_icon {
 	width: 60px;
 	height: 60px;
 	margin-top: 38px;
-	margin-right: 28px;
+	margin-right: 34px;
 }
 a#phone_number:hover {
 	text-decoration: none;
@@ -286,37 +287,38 @@ a#phone_number:link {
 	display: inline-block;
 	padding-bottom: 74px;
 	width: 566px;
-	margin-left: -6px;
+	margin-left: -13px;
 }
 .info_block.marg_80.grid {
-	padding-bottom: 45px;
+	padding-bottom: 47px;
 	margin-top: 2px;
+	margin-left: 51px;
 }
 .info_block.padd_up {
-    margin-left: 31px;
-    width: 601px;
+	margin-left: 31px;
+	width: 601px;
 }
 .wide .info_block {
 	margin-bottom: -4.4px;
 	padding-bottom: 0px;
 	float: none;
-	margin-left: -56px;
+	margin-left: -61px;
 }
 .wide .under_title {
 	line-height: 61.2px;
-	margin-bottom: 15px;
+	margin-bottom: 18px;
 	display: -webkit-inline-box;
-	margin-left: -1px;
+	margin-left: -8px;
 }
 .center.wide {
-    position: absolute;
-    top: 2475px;
-    z-index: 7;
-    left: 6px;
+	position: absolute;
+	top: 2439px;
+	z-index: 7;
+	left: -5px;
 }
 .center.wide.footer {
-    top: 0px;
-    text-transform: capitalize;
+	top: 0px;
+	text-transform: capitalize;
 }
 .title.white b {
 	font-family: "Lato-Semibold";
@@ -343,7 +345,7 @@ a#phone_number:link {
 	padding-bottom: 0;
 	color: white;
 	font-family: "Lato-thin";
-	margin-bottom: 23px;
+	margin-bottom: 30px;
 	margin-top: -10px;
 	width: 622px;
 }
@@ -363,8 +365,8 @@ a#phone_number:link {
 	font-family: "Lato-Semibold";
 }
 .ug-slider-control.ug-bullets.ug-skin-default {
-	top: 636.3px !important;
-	left: 592px !important;
+	top: 648.3px !important;
+	left: 593px !important;
 }
 .ug-bullets.ug-skin-default .ug-bullet.ug-bullet-active {
 	background: url('../images/sprites.png') no-repeat -36px -86px !important;
@@ -438,7 +440,7 @@ a#phone_number:link {
 }
 .sn_icons_group {
 	position: absolute;
-	top: 2031px;
+	top: 2035px;
 	z-index: 4;
 	margin-top: -5px;
 }
@@ -451,7 +453,7 @@ a#phone_number:link {
 	color: #888;
 	font-family: Lato;
 	font-size: 15px;
-	margin-left: 6px;
+	margin-left: -5px;
 }
 .carouse_info_block img {
 	width: 100px;
@@ -467,10 +469,9 @@ a#phone_number:link {
 	left: 0;
 }
 .ug-tile-navigation-wrapper {
-	top: 42.7% !important;
+	top: 132px !important;
 	z-index: 5;
-	left: 5% !important;
-	width: 90%;
+	width: 1143px;
 	pointer-events: none;
 }
 .ug-button-tile-navigation.ug-button-tile-play.ug-pause-icon {
@@ -481,7 +482,7 @@ a#phone_number:link {
 	float: right;
 }
 .ug-button-tile-navigation.ug-button-tile-left {
-	left: 5% !important;
+	margin-left: -16px;
 }
 .ug-button-tile-navigation.ug-button-tile-left {
 	background-image: url(../images/left_arr_caurusel.png) !important;
@@ -519,12 +520,15 @@ a#phone_number:link {
 	width: 100%;
 }
 .correction .contactUs .image_block {
-    position: absolute;
-    top: 4872px;
-    left: 578px;
+	position: absolute;
+	top: 4872px;
+	left: 571px;
+}
+.contactUs .title.black {
+	margin-bottom: 20px;
 }
 .contactUs .image_block img {
-    height: 515px;
+	height: 515px;
 }
 .justify {
 	text-align: justify !important;
@@ -538,48 +542,49 @@ a#phone_number:link {
 #carousel_info_block {
 	margin-top: -15px;
 	margin-bottom: 56px;
-	margin-left: 20px;
+	margin-left: 11px;
 }
 .info_block.marg_76 {
-	margin-top: 105px;
-	margin-left: 61px;
+	margin-top: 106px;
+	margin-left: 54px;
 	width: 514px;
 	padding-bottom: 29px;
 	display: inline-block;
 }
 .marg_76 .txt {
-    margin-bottom: 22px;
+	margin-bottom: 22px;
+	position: relative;
 }
 .right_to_left .appointment {
 	margin-bottom: 127px;
 }
 .correction .caurusel .image_block {
-    position: absolute;
-    top: 1635px;
-    left: 638px;
-    width: 569px;
-    height: auto;
-    margin-left: 11px;
+	position: absolute;
+	top: 1635px;
+	left: 638px;
+	width: 569px;
+	height: auto;
+	margin-left: 5px;
 }
 
 /* END Caurusel block + right_to_left block */
 
 /* Appoinmentment */
 .book_appointment {
-	top: 67.4px;
+	top: 70.4px;
 	position: absolute;
-	right: 40px;
+	right: 46px;
 	background-color: #888888;
 	z-index: 5;
 	border: 1px solid white;
-	width: 291px;
-	height: 58px;
+	width: 289px;
+	height: 42px;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
 	font-family: Lato-thin;
 	font-size: 21px;
-	padding-top: 12px;
+	padding-top: 14px;
 }
 .book_appointment:hover {
 	background-color: #000000;
@@ -640,7 +645,7 @@ a.book_appointment {
 }
 .left_to_right_full_v.posts {
 	padding-top: 111px;
-	padding-bottom: 536px;
+	padding-bottom: 136px;
 	margin-bottom: -2.5px;
 	position: relative;
 }
@@ -739,7 +744,8 @@ a, a:hover, .pic .pic-image, .pic-caption, .pic:hover .pic-caption, .pic:hover i
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 22px;
-	margin-bottom: 15px;
+	margin-top: -5px;
+	margin-bottom: 19px;
 }
 .footer {
 	color: #b1b1b1;
@@ -759,26 +765,24 @@ a, a:hover, .pic .pic-image, .pic-caption, .pic:hover .pic-caption, .pic:hover i
 	z-index: -1;
 }
 .second_overlay .button {
-	width: 104px;
-	height: 36px;
 	background-color: #191919;
 	border: 1px solid #2c2c2c;
 	display: inline-block;
-	margin-bottom: 15px;
 	color: white;
-	padding-top: 6px;
-	padding-left: 17px;
+	padding: 9px 14px;
 	text-decoration: none;
 	cursor: pointer;
+	font-size: 14px;
+	font-family: "Lato";
+	text-transform: uppercase;
+	margin-bottom: 16px;
 }
 .second_overlay .button:hover {
 	background-color: #5d5d5d;
 	border: 1px solid #c2c2c2;
 	display: inline-block;
-	margin-bottom: 15px;
 	color: white;
-	padding-top: 6px;
-	padding-left: 17px;
+	top: 23px;
 }
 .second_overlay .button:active {
 	background-color: #bababa;
@@ -790,7 +794,7 @@ a, a:hover, .pic .pic-image, .pic-caption, .pic:hover .pic-caption, .pic:hover i
 	padding: 0 5px;
 }
 .txt_block {
-	padding: 10px 15px;
+	padding: 15px 14px;
 	display: inline-block;
 	text-align: left;
 }
@@ -805,7 +809,7 @@ a, a:hover, .pic .pic-image, .pic-caption, .pic:hover .pic-caption, .pic:hover i
 .place_mark img {
 	cursor: default;
 }
-.time_icon_txt img {
+.work_days img {
 	cursor: default;
 }
 .contact_us_txt {
@@ -833,14 +837,14 @@ img.small_icon_padd {
 	margin-right: 10px;
 	margin-bottom: 2px;
 }
-.time_icon_txt {
+.work_days {
 	margin-bottom: 7px;
 }
 
 /* END INSIDE WHITE BLOCK*/
 img.small_icon_padd_time {
-	margin-right: 6px;
-	margin-bottom: 2px;
+	position: absolute;
+	top: 139px;
 }
 
 /* RIGHT TO LEFT */
@@ -909,10 +913,11 @@ img.small_icon_padd_time {
 	z-index: 4;
 	background-color: #191919;
 	padding-top: 57px;
-	padding-bottom: 120px;
-	margin-top: -86px;
+	padding-bottom: 137px;
+	margin-top: -130px;
 }
 a.fb_icon.footer {
+
 	/* float: right; */
 	cursor: pointer;
 	background: url(../images/sprites.png) no-repeat 0 0;
@@ -934,14 +939,14 @@ a.fb_icon.footer {
 	margin-bottom: 0px;
 }
 .contactUs {
-    margin-bottom: 14px;
+	margin-bottom: 14px;
 }
 .contactUs .image_block {
-    width: 100px;
-    position: absolute;
-    top: 5258px;
-    left: 699px;
-    z-index: 1;
+	width: 100px;
+	position: absolute;
+	top: 5258px;
+	left: 699px;
+	z-index: 1;
 }
 .left_to_right_full_v {
 	margin-bottom: 0px;
@@ -958,32 +963,31 @@ a.fb_icon.footer {
 	width: 100.3%;
 	margin-top: 155px;
 	padding-top: 128px;
-	padding-bottom: 399.4px;
+	padding-bottom: 9.4px;
 	position: relative;
 	z-index: 3;
 	margin-left: -1px;
 }
-
 .main_frame {
 	width: 1259px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	margin-top: -8px;
 }
 .correction {
 	margin-left: -12px;
 	overflow: hidden;
-	padding-bottom: 100px;
+	padding-bottom: 83px;
 }
 .correction .image_block {
-    display: -webkit-inline-box;
-    margin-left: 72px;
+	display: -webkit-inline-box;
+	margin-left: 72px;
 }
 .correction .image_block img {
-    height: 100%;
-    width: 570px;
+	height: 100%;
+	width: 570px;
 }
-
 .one {
 	transform: rotate(358deg) scale(1) skew(-2deg) translate(0px);
 	-webkit-transform: rotate(358deg) scale(1) skew(-2deg) translate(0px);
@@ -1086,12 +1090,20 @@ a.fb_icon.footer {
 	text-align: center !important;
 }
 .footer-top2 div:nth-child(2) .title.white {
-    margin-left: 0px;
-    margin-bottom: 23px;
-    width: 500px;
+	margin-left: 0px;
+	margin-bottom: 23px;
+	width: 500px;
 }
-
 .contacts {
-    margin-top: 19px;
-    margin-right: 34px;
+	margin-top: 19px;
+	margin-right: 34px;
 }
+.comment {
+	margin-left: 25px;
+}
+.place_mark {
+	position: absolute;
+	top: 93px;
+	left: 1px;
+}
+.work_days .txt {float: left;margin-left: 26px;margin-bottom: 6px;}
