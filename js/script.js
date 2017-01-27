@@ -23,7 +23,7 @@ $(document).ready(function() {
 				tile_textpanel_appear_type: "fade",
 				gallery_theme: "carousel",
 				tile_height: 240,
-				tile_width: 233.5,
+				tile_width: 234,
 				theme_carousel_align: "center",
 				carousel_space_between_tiles: 0,
 				tile_enable_border: false,
