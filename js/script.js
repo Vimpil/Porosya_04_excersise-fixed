@@ -40,15 +40,4 @@ $(document).ready(function() {
 				grid_space_between_rows: 45,
 				grid_num_rows:10,
 			});
-			$("#grid_info_block_2").unitegallery({
-				gallery_theme: "tilesgrid",
-				tile_enable_textpanel: true,
-				tile_enable_textpanel: true,
-				tile_enable_shadow:false,
-				tile_enable_border:false,
-				tile_enable_icons: false,
-				tile_height: 250,
-				tile_width: 370,
-				grid_space_between_cols: 30,
-			});
 		});
